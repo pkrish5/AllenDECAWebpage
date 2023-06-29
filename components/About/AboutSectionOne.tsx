@@ -44,4 +44,3 @@ const AboutSectionOne = () => {
 };
 
 export default AboutSectionOne;
-;
