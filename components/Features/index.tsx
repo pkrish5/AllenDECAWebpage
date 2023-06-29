@@ -11,8 +11,8 @@ const Features = () => {
       >
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Why Should YOU Become a Part of Allen DECA?"
+            paragraph=""
             center
           />
 
@@ -22,6 +22,13 @@ const Features = () => {
             ))}
           </div>
         </div>
+        <section style={{ paddingTop: '120px', paddingBottom: '120px', textAlign: 'center' }}>
+        <p>
+          <a href="mailto:pranav.krishnan.help@gmail.com">
+          Still Unsure? Click Here to reach out!
+          </a>
+          </p>
+        </section>
       </section>
     </>
   );

@@ -13,8 +13,8 @@ const Video = () => {
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="What Is DECA?"
+          paragraph="This is a video created by Washington DECA explaining the events and how the competition works"
           center
           mb="80px"
         />
@@ -26,7 +26,7 @@ const Video = () => {
               data-wow-delay=".15s"
             >
               <div className="relative aspect-[77/40] items-center justify-center">
-                <Image src="/images/video/video.jpg" alt="video image" fill />
+                <img src="https://assets-global.website-files.com/600faaecb03ce57f6fa98050/644473f756c2ffe669125224_DECA-24-Experience%20the%20Difference-1920x1080.png" alt="video image" />
                 <div className="absolute top-0 right-0 flex h-full w-full items-center justify-center">
                   <button
                     onClick={() => setOpen(true)}
@@ -53,7 +53,7 @@ const Video = () => {
         autoplay={true}
         start={true}
         isOpen={isOpen}
-        videoId="L61p2uyiMSo"
+        videoId="8xJROgfalxQ"
         onClose={() => setOpen(false)}
       />
 

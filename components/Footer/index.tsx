@@ -14,14 +14,14 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="images/logo/logo-2.svg"
+                    src="images/logo/logo-3.svg"
                     alt="logo"
                     className="w-full dark:hidden"
                     width={140}
                     height={30}
                   />
                   <Image
-                    src="images/logo/logo.svg"
+                    src="images/logo/logo-3.svg"
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
@@ -29,12 +29,11 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  Allen Deca's Offical Webpage.
                 </p>
                 <div className="flex items-center">
                   <a
-                    href="/"
+                    href="https://www.facebook.com/p/Allen-High-School-DECA-100068947878338/"
                     aria-label="social-link"
                     className="mr-6 text-[#CED3F6] hover:text-primary"
                   >
@@ -48,7 +47,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://twitter.com/alleneagledeca?lang=en"
                     aria-label="social-link"
                     className="mr-6 text-[#CED3F6] hover:text-primary"
                   >
@@ -62,7 +61,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://www.youtube.com/@allendeca2546"
                     aria-label="social-link"
                     className="mr-6 text-[#CED3F6] hover:text-primary"
                   >
@@ -76,7 +75,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://www.linkedin.com/in/pranav-krishnan-59b24625a"
                     aria-label="social-link"
                     className="mr-6 text-[#CED3F6] hover:text-primary"
                   >
@@ -101,29 +100,29 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      Blog{" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      Pricing{" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
+                      href="/about"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
                       About{" "}
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/join"
+                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                    >
+                      {" "}
+                      Join{" "}
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/resources"
+                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                    >
+                      {" "}
+                      Resources{" "}
                     </a>
                   </li>
                 </ul>
@@ -133,34 +132,35 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                  Stay In Touch
                 </h2>
                 <ul>
                   <li>
                     <a
-                      href="/"
+                      href="https://www.remind.com/join/gettheedge"
+                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      >
+                      {" "}
+                      Remind{" "}
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="https://www.instagram.com/alleneagledeca/"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      TOS{" "}
+                      Instagram{" "}
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="https://twitter.com/alleneagledeca"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Privacy Policy{" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      Refund Policy{" "}
+                      Twitter{" "}
                     </a>
                   </li>
                 </ul>
@@ -170,16 +170,16 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
+                  Contact Us
                 </h2>
                 <ul>
                   <li>
                     <a
-                      href="/"
+                      href="mailto:pranav.krishnan.help@gmail.com"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Open Support Ticket{" "}
+                      By Email{" "}
                     </a>
                   </li>
                   <li>
@@ -188,7 +188,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Terms of Use{" "}
+                      {" "}
                     </a>
                   </li>
                   <li>
@@ -197,7 +197,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      About{" "}
+                      {" "}
                     </a>
                   </li>
                 </ul>
@@ -208,7 +208,8 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and <a href="https://nextjstemplates.com" rel="nofollow noopener">Next.js Templates</a>
+            <a href="https://nextjstemplates.com" rel="nofollow noopener"> Created By Pranav Krishnan using Next.js & UIDeck</a>
+
             </p>
           </div>
         </div>

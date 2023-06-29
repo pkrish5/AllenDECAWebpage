@@ -15,16 +15,24 @@ const menuData: Menu[] = [
   },
   {
     id: 33,
-    title: "Blog",
-    path: "/blog",
+    title: "Join",
+    path: "/join",
+    newTab: false,
+  },
+  {
+    id: 5,
+    title: "Calendar",
+    path: "/calendar",
     newTab: false,
   },
   {
     id: 3,
-    title: "Support",
-    path: "/contact",
+    title: "Resources",
+    path: "/resources",
     newTab: false,
   },
+  
+/*
   {
     id: 4,
     title: "Pages",
@@ -44,8 +52,8 @@ const menuData: Menu[] = [
       },
       {
         id: 43,
-        title: "Blog Grid Page",
-        path: "/blog",
+        title: "Join",
+        path: "/join",
         newTab: false,
       },
       {
@@ -79,6 +87,6 @@ const menuData: Menu[] = [
         newTab: false,
       },
     ],
-  },
+  },*/
 ];
 export default menuData;
