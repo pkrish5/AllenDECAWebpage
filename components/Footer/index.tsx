@@ -29,7 +29,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                  Allen Deca's Offical Webpage.
+                  Allen Deca's Official Webpage.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -208,7 +208,7 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-            <a href="https://nextjstemplates.com" rel="nofollow noopener"> Created By Pranav Krishnan using Next.js & UIDeck</a>
+            <a href="https://www.linkedin.com/in/pranav-krishnan-59b24625a/" rel="nofollow noopener"> Created By Pranav Krishnan using Next.js & UIDeck</a>
 
             </p>
           </div>
