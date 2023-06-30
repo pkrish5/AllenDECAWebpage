@@ -29,7 +29,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                  Allen Deca's Official Webpage.
+                  The Allen DECA Official Webpage.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -180,24 +180,6 @@ const Footer = () => {
                     >
                       {" "}
                       By Email{" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      {" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      {" "}
                     </a>
                   </li>
                 </ul>
