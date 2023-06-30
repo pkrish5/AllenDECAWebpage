@@ -1,21 +1,20 @@
-import { useEffect } from "react";
+import { useEffect } from "react";// only to default light mode
 import { useTheme } from "next-themes";
 
 const ThemeToggler = () => {
   const { theme, setTheme } = useTheme();
 
-  useEffect(() => {
-    if (theme === "dark") {
-      setTheme("light");
-    }
-  }, []);
-
+  useEffect(() => {// only to default light mode
+    if (theme === "dark") {// only to default light mode
+      setTheme("light");// only to default light mode
+    }// only to default light mode
+  }, []);// only to default light mode
+//remove all the comments above to attempt to fix makeshift default white or just to make it default dark mode
 
   return (
     
     <button
-      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-
+      onClick={() => setTheme(theme === "light" ? "dark" : "light")}
       className="bg-gray-2 dark:bg-dark-bg flex h-9 w-9 cursor-pointer items-center justify-center rounded-full text-black dark:text-white md:h-14 md:w-14"
     >
       <svg
