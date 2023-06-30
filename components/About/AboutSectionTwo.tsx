@@ -33,7 +33,7 @@ const AboutSectionTwo = () => {
             name="Aadi Jadia"
             position="VP of Community Service "
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            imageSrc="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydHJhaXQlMjBtYW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+            imageSrc="https://image13.photobiz.com/9048/3_20180601100200_22858587_large.jpg"
             alt="Jane Smith"
           />
           <OfficerCard
