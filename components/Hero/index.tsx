@@ -282,7 +282,13 @@ const Hero = () => {
             </defs>
           </svg>
         </div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+
       </section>
+
     </>
   );
 };
