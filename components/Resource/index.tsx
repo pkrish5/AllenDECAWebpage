@@ -42,11 +42,7 @@ const resources: Resource[] = [
     description: 'Here are some resources directly from texas deca that help with all aspects of competition',
     link: 'https://www.texasdeca.org/competition-resources',
   },
-  {
-    title: 'COMING SOON',
-    description: 'I would love to add allen deca specific resources here once our comp prep offiers make some so please keep that in mind when looking at this page',
-    link: '/',
-  },
+ 
   // Add more resources as needed
 ];
 
