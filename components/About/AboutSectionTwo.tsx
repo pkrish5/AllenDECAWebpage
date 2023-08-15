@@ -1,71 +1,94 @@
-import yash from "../../public/images/officers/yash-nayak-headshot.png";
-import aadi from "../../public/images/officers/aadi-jadia-headshot.png";
-import ethan from "../../public/images/officers/ethan-walling-headshot.png";
-import ishaam from "../../public/images/officers/ishaan-gupra-headshot.png";
-import rashmi from "../../public/images/officers/rashmi-ravindran-headshot.png";
-import jaivel from "../../public/images/officers/jaivel-italia-headshot.png";
-import preeti from "../../public/images/officers/preeti-makam-headshot.png";
-import rayna from "../../public/images/officers/rayna-shah-headshot.png";
-import hannah from "../../public/images/officers/hannah-peters-headshot.png";
+import React from 'react';
+import { Container, Grid, Box, Typography } from '@mui/material';
+import './AboutSectionTwo.css';
 
-const OfficerCard = ({ name, position, description, imageSrc, alt }) => (
-  <div className="mb-8 md:w-2/3">
-    <div className="bg-white dark:bg-black shadow-md rounded-lg p-6">
-      <div className="flex items-center mb-4">
-        <div className="w-30 h-40 rounded-lg overflow-hidden">
-          <img src={imageSrc} alt={alt} className="w-full h-full object-cover" />
-        </div>
-        <div className="ml-4">
-          <h4 className="text-lg font-bold text-black dark:text-white">{name}</h4>
-          <p className="text-base font-medium text-body-color">{position}</p>
-        </div>
-      </div>
-      <p className="text-sm text-body-color">{description}</p>
-    </div>
-  </div>
+
+const OfficerCard = ({ name, position, imageSrc, alt }) => (
+  <Grid item xs={12} sm={6} md={4}>
+    <Box mb={{ xs: '2rem', sm: '5rem', md: 0 }} className="profile">
+      <img
+        className="pic"
+        style={{ borderRadius: 15, height: 339, width: 339 }}
+        src={imageSrc}
+        alt={alt}
+      />
+      <Typography variant="h5" color="textPrimary" mt="1rem">
+        {name}
+      </Typography>
+      <Typography variant="subtitle1" color="textPrimary">{position}</Typography>
+    </Box>
+  </Grid>
 );
 
 const AboutSectionTwo = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-28">
-      <div className="container">
-      <h1 className="mb-8 text-2xl font-bold text-center text-black dark:text-white">Our 2023-24 Officer Team</h1>
-      <br></br>
-        <div className="grid gap-8 md:grid-cols-3">
-          <OfficerCard
-            name="Yash Nayak"
-            position="President"
-            description=""
-            imageSrc={yash}
-            alt="Yash Nayak"
-          />
-          <OfficerCard
-            name="Aadi Jadia"
-            position="VP of Community Service"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            imageSrc={aadi}
-            alt="Aadi Jadia"
-          />
-          <OfficerCard
-            name="Ethan Walling"
-            position="VP of Community Service "
-            description=""
-            imageSrc={ethan}
-            alt="David Johnson"
+    <Container maxWidth={false} >
+    <Box my={{ xs: '3rem', sm: '5rem' }} ml={{ lg: '5rem' }} >
+      <Typography variant="h3" textAlign={{ xs: 'center', lg: 'start' }}>
+        Our 2023-24 Officer Team
+      </Typography>
+    </Box>
+    <Box my={{ xs: '3rem', sm: '5rem' }} ml={{ lg: '5rem' }} sx={{ml: "5%", mr: "5%"}}>
 
-          />
-         <OfficerCard
-            name="Ethan Walling"
-            position="VP of Community Service "
-            description=""
-            imageSrc={ethan}
-            alt="David Johnson"
+    <Grid container justifyContent="center" spacing={10}>
 
-          />
-        
-        </div>
-      </div>
-    </section>
+        <OfficerCard
+          name="Yash Nayak"
+          position="President"
+          imageSrc="https://github.com/pkrish5/AllenDECAWebpage/blob/main/public/images/officers/yash-nayak-headshot.png?raw=true"
+          alt="Yash Nayak"
+        />
+        <OfficerCard
+          name="Aadi Jadia"
+          position="VP of Community Service"
+          imageSrc="https://github.com/pkrish5/AllenDECAWebpage/blob/main/public/images/officers/aadi-jadia-headshot.png?raw=true"
+          alt="Aadi Jadia"
+        />
+        <OfficerCard
+          name="Ethan Walling"
+          position="VP of Community Service"
+          imageSrc="https://github.com/pkrish5/AllenDECAWebpage/blob/main/public/images/officers/ethan-walling-headshot.png?raw=true"
+          alt="Ethan Walling"
+        />
+        <OfficerCard
+          name="Ishaan Gupta"
+          position="VP of Competition"
+          imageSrc="https://github.com/pkrish5/AllenDECAWebpage/blob/main/public/images/officers/ishaan-gupta-headshot.png?raw=true"
+          alt="Ishaan Gupta"
+        />
+        <OfficerCard
+          name="Rashmi Ravindran"
+          position="VP of Competition"
+          imageSrc="https://github.com/pkrish5/AllenDECAWebpage/blob/main/public/images/officers/rashmi-ravindran-headshot.png?raw=true"
+          alt="Rashmi Ravindran"
+        />
+        <OfficerCard
+          name="Jaivel Italia"
+          position="VP of Finance"
+          imageSrc="https://github.com/pkrish5/AllenDECAWebpage/blob/main/public/images/officers/jaivel-italia-headshot.png?raw=true"
+          alt="Jaivel Italia"
+        />
+        <OfficerCard
+          name="Preeti Italia"
+          position="VP of Marketing"
+          imageSrc="https://github.com/pkrish5/AllenDECAWebpage/blob/main/public/images/officers/preeti-makam-headshot.png?raw=true"
+          alt="Preeti Italia"
+        />
+        <OfficerCard
+          name="Rayna Shah"
+          position="VP of Recruitment"
+          imageSrc="https://github.com/pkrish5/AllenDECAWebpage/blob/main/public/images/officers/rayna-shah-headshot.png?raw=true"
+          alt="Rayna Shah"
+        />
+        <OfficerCard
+          name="Hannah Peters"
+          position="VP of Special Events"
+          imageSrc="https://github.com/pkrish5/AllenDECAWebpage/blob/main/public/images/officers/hannah-peters-headshot.png?raw=true"
+          alt="Hannah Peters"
+        />
+      </Grid>
+      </Box>
+    </Container>
   );
 };
 

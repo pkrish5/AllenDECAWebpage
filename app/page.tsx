@@ -16,7 +16,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Video />
-      <AboutSectionOne />
+      {/* <AboutSectionOne /> */}
       <AboutSectionTwo />
       <ResourcesPage />
     </>
