@@ -29,7 +29,7 @@ const Hero = () => {
                   <Link
                   target="_blank"  
                   rel="noopener noreferrer"  
-                    href="https://www.remind.com/join/gettheedge"
+                    href="https://www.instagram.com/p/Cv_Sx7ptQrh/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                    Join the Remind

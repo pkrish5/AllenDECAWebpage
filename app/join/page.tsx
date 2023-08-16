@@ -20,10 +20,26 @@ const JoinClub = () => {
 
           <div className="flex items-center justify-center mt-12">
             <a
-              href="https://www.remind.com/join/gettheedge"
+              href="https://www.remind.com/join/allendecas"
               className="flex items-center justify-center px-6 py-3 text-base font-medium rounded-md bg-primary text-white hover:bg-primary-dark transition-colors"
             >
-              Join Now
+              Remind for Seniors 
+            </a>
+          </div>
+          <div className="flex items-center justify-center mt-12">
+            <a
+              href="https://www.remind.com/join/allendecaj"
+              className="flex items-center justify-center px-6 py-3 text-base font-medium rounded-md bg-primary text-white hover:bg-primary-dark transition-colors"
+            >
+              Remind for Juniors 
+            </a>
+          </div>
+          <div className="flex items-center justify-center mt-12">
+            <a
+              href="https://www.remind.com/join/egdfa6"
+              className="flex items-center justify-center px-6 py-3 text-base font-medium rounded-md bg-primary text-white hover:bg-primary-dark transition-colors"
+            >
+              Remind for Sophmores 
             </a>
           </div>
         </div>
