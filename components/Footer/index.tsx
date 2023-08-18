@@ -29,7 +29,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                  The Allen DECA Official Webpage.
+                  The Official Allen DECA Webpage.
                 </p>
                 <div className="flex items-center">
                   <a

@@ -13,6 +13,11 @@ const resources: Resource[] = [
     link: 'https://www.deca.org/',
   },
   {
+    title: 'Texas Deca Website',
+    description: 'Here are some resources directly from texas deca that help with all aspects of competition',
+    link: 'https://www.texasdeca.org/competition-resources',
+  },
+  {
     title: 'Competitive Events',
     description: 'Find the right event for you',
     link: 'https://www.deca.org/compete',
@@ -37,12 +42,7 @@ const resources: Resource[] = [
     description: 'Everything you need in once place from practice tests to practice roleplays and more, contact our chapter for the login information',
     link: 'https://www.decaplus.org/',
   },
-  {
-    title: 'Texas Deca Tips',
-    description: 'Here are some resources directly from texas deca that help with all aspects of competition',
-    link: 'https://www.texasdeca.org/competition-resources',
-  },
- 
+
   // Add more resources as needed
 ];
 

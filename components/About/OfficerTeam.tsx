@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Grid, Box, Typography } from '@mui/material';
-import './AboutSectionTwo.css';
+import './OfficerTeam.css';
 
 
 const OfficerCard = ({ name, position, imageSrc, alt }) => (

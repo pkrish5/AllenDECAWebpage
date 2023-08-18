@@ -1,5 +1,5 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
+import Officers from "@/components/About/OfficerTeam";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 const AboutPage = () => {
@@ -10,7 +10,7 @@ const AboutPage = () => {
         description=""
       />
       {/* <AboutSectionOne /> */}
-      <AboutSectionTwo />
+      <Officers />
     </>
   );
 };

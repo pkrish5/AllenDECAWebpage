@@ -1,5 +1,6 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
+import Advisors from "@/components/About/Advisors";
+import Officers from "@/components/About/OfficerTeam";
 import ScrollUp from "@/components/Common/ScrollUp";
 import ResourcesPage from "@/components/Resource";
 import Features from "@/components/Features";
@@ -17,7 +18,10 @@ export default function Home() {
       <Features />
       <Video />
       {/* <AboutSectionOne /> */}
-      <AboutSectionTwo />
+      <br></br>
+      <Advisors/>
+      <br></br>
+      <Officers />
       <ResourcesPage />
     </>
   );
