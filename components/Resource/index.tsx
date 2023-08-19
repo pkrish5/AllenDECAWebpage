@@ -9,12 +9,12 @@ interface Resource {
 const resources: Resource[] = [
   {
     title: 'The Official DECA Site ',
-    description: 'This website has everything you need to know about deca and is one of the best resources out there for DECA',
+    description: 'This website has everything you need to know about DECA and is one of the best resources out there for DECA',
     link: 'https://www.deca.org/',
   },
   {
     title: 'Texas Deca Website',
-    description: 'Here are some resources directly from texas deca that help with all aspects of competition',
+    description: 'Here are some resources directly from Texas DECA that help with all aspects of competition',
     link: 'https://www.texasdeca.org/competition-resources',
   },
   {
@@ -24,17 +24,17 @@ const resources: Resource[] = [
   },
   {
     title: 'Performance Indicators',
-    description: 'Study these to help your roleplay skills for the competition!',
-    link: 'https://www.deca.org/advisor-resources/performance-indicators-marketing#:~:text=DECA%20uses%20seven%20lists%20of,marketing%20and%20personal%20financial%20literacy.',
+    description: 'Scroll down to the "Search Here" button and type "Performance Indicators" and find your cluster',
+    link: 'https://www.deca.org/resources',
   },
   {
     title: 'Practice Tests',
-    description: 'Try out these practice tests provided by texas deca to help with your test scores in the competitons',
+    description: 'Try out these practice tests provided by Texas DECA to help you out with your test scores in the competition',
     link: 'https://www.texasdeca.org/practicetesting',
   },
   {
     title: 'Practice Roleplays',
-    description: 'Check out these full legnth practice roleplays provided by Texas DECA',
+    description: 'Check out these full length practice roleplays provided by Texas DECA',
     link: 'https://www.texasdeca.org/roleplayresources',
   },
   {
