@@ -39,7 +39,7 @@ const JoinClub = () => {
               href="https://www.remind.com/join/egdfa6"
               className="flex items-center justify-center px-6 py-3 text-base font-medium rounded-md bg-primary text-white hover:bg-primary-dark transition-colors"
             >
-              Remind for Sophmores 
+              Remind for Sophomores 
             </a>
           </div>
         </div>
