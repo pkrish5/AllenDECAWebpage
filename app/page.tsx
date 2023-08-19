@@ -19,8 +19,8 @@ export default function Home() {
       <Video />
       {/* <AboutSectionOne /> */}
       <br></br>
-      <Advisors/>
-      <br></br>
+      {/* <Advisors/>
+      <br></br> */}
       <Officers />
       <ResourcesPage />
     </>
