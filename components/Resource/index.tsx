@@ -8,11 +8,10 @@ interface Resource {
 
 const resources: Resource[] = [
   {
-    title: 'Allen Deca Bootcamp Slides ',
-    description: 'These are the slides that were presented at the Allen Deca Bootcamp',
-    link: 'https://drive.google.com/drive/folders/1AbvARcxXCn2Wxo9aFCxuxUZbd-D6FZzK?usp=sharing',
+    title: 'ALLEN DECA Virtual Locke',
+    description: 'A google drive with all important resources',
+    link: 'https://drive.google.com/drive/folders/1QC2Wem_JALPcBOCQ6rjdeVsW4B4O2bYC?usp=sharing',
   },
-  {
   {
     title: 'The Official DECA Site ',
     description: 'This website has everything you need to know about DECA and is one of the best resources out there for DECA',
