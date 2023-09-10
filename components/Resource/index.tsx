@@ -8,7 +8,7 @@ interface Resource {
 
 const resources: Resource[] = [
   {
-    title: 'ALLEN DECA Virtual Locke',
+    title: 'ALLEN DECA Virtual Locker',
     description: 'A google drive with all important resources',
     link: 'https://drive.google.com/drive/folders/1QC2Wem_JALPcBOCQ6rjdeVsW4B4O2bYC?usp=sharing',
   },
